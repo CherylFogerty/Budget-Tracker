@@ -1,10 +1,4 @@
-# Budget-Tracker
-AS AN avid traveler
-I WANT to be able to track my withdrawals and deposits with or without a data/internet connection
-SO THAT my account balance is accurate when I am traveling 
-Acceptance Criteria
-GIVEN a budget tracker without an internet connection
-WHEN the user inputs an expense or deposit
-THEN they will receive a notification that they have added an expense or deposit
-WHEN the user reestablishes an internet connection
-THEN the deposits or expenses added while they were offline are added 
+As an avid traveler
+I want to be able to track my withdrawals and deposits with or without a data/internet connection so that my account balance is accurate when I am traveling.
+
+Given a budget tracker without an internet connection the user inputs an expense or deposit, they will then receive a notification they have added a transaction once the user restablishes an internet connection.
