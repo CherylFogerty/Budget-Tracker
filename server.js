@@ -21,7 +21,7 @@ mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost/Budget-Tracker'
   useNewUrlParser: true,
   useUnifiedTopology: true,
   useFindAndModify: false
-});
+}).catch(console.error);
 
 // routes
 app.use(require("./routes/api.js"));
